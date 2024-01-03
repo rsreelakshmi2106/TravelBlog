@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IND Travel Blog</title>
+    <link rel="icon" type="icon" href="https://i.pinimg.com/474x/bf/ee/36/bfee3605ae785a3735e120f7b9eb634d.jpg">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Caveat:wght@400;500&family=Dancing+Script&family=Dhurjati&family=Indie+Flower&family=Macondo&family=Inter:wght@200&family=Kalnia:wght@300&family=Single+Day&family=Libre+Baskerville:wght@700&family=Lobsterfamily=Taviraj:wght@300&&family=Lilita+One&family=Carter+One&family=Mukta&family=Preahvihear&family=Shadows+Into+Light&family=Special+Elite&family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+        <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><b><img src="https://thumbs.dreamstime.com/b/travel-calligraphy-blue-background-outline-shapes-text-clouds-vector-illustration-250651805.jpg" width="50px" alt=""><span style="font-family:Carter One;font-size: x-large;">IND Travel Blog</span></b></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav nav-underline mx-auto text-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><b>Home</b></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <b>Travel</b>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#best"><b>Travel Journal</b></a></li>
+                      <li><a class="dropdown-item" href="#tips"><b>Travel Advice</b></a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#map"><b>Destinations</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#food"><b>Food</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#gallery"><b>Gallery</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#video"><b>Videos</b></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <b>Contact</b>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#abt"><b>Work WIth Us</b></a></li>
+                      <li><a class="dropdown-item" href="#abt"><b>Email Us</b></a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    <!-- banner -->
+    <section id="banner">
+        <div class="overlay-container">
+            <img src="https://images.pexels.com/photos/14687500/pexels-photo-14687500.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="100%" height="700px" alt="">
+                <!-- for emoji click 'windows' + ';' -->
+            <div class="overlay-text">
+                <h1 class="head">IND Travel Blog</h1>
+                <h1 class="head1">Travel Tips</h1><br>
+                <button class="btn custom-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><h4>Subscribe</h4></button>
+            </div>    
+        </div>
+    </section>
+
+    <!-- modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div> -->
+          <div class="modal-body">
+            <h4>Sign up for our newsletter!</h4>
+            <p><span style="font-family: Arial, Helvetica, sans-serif;font-weight: 600;">Subscribe to get our weekly newsletter and new posts by email.</span></p>
+            <input type="text" class="form-control border-dark" placeholder="Your Email">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-primary">SUBSCRIBE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- who?-->
+    <section>
+        <div class="row">
+            <div class="col col-3">
+                <h1>WHO ARE WE?</h1><br>
+                <h4>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>&nbsp;&nbsp;
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>&nbsp;&nbsp;
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>&nbsp;&nbsp;
+                    <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                </h4>
+                <a href=""><h5>GET IN TOUCH WITH US ></h5></a>
+            </div>
+            <div class="col col1 col-6 mx-5">
+                <p style="font-family: Taviraj;"><span style="font-weight: bolder;">IND Travel Blog</span> aims to help you plan your trip to <span style="font-weight: bold;">India</span> and the surrounding states with ease and confidence! You will find info on things to do, where to stay, and much more on this Indian travel blog. </p>
+                <p style="font-family: Taviraj;">
+                We cover everything from things to do in IND’s largest cities to Indian hiking guides in the remotest corners of the state. Whether you’re visiting domestically or from abroad, we hope you love IND as much as we do!</p>
+                <p style="font-family: Taviraj;">                    
+                You will also find useful <span style="font-weight: bold;">travel guides</span> and <span style="font-weight: bold;">resources</span> for other Countries. </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- what to do -->
+    <section id="todo">
+        <h4 style="text-align: center;" id="look"><span style="border: 2px solid black;padding: 10px;background-color: rgba(172, 178, 255, 0.34);">WHAT ARE YOU LOOKING FOR ?</span></h4>
+        <div class="row row_do">
+            <div class="col_do col-4 m-3">
+                <div class="overlay-container">
+                    <a href="https://www.tripsavvy.com/popular-adventure-travel-activities-in-india-1539126" target="_blank">
+                        <img src="https://cdn.pixabay.com/photo/2016/08/11/23/55/trees-1587301_1280.jpg" alt="">
+                        <div class="overlay-text"><strong>OUTSIDE</strong></div>
+                    </a>
+                </div>    
+            </div>
+            <div class="col_do col-4 m-3">
+                <div class="overlay-container">
+                    <a href="https://www.lonelyplanet.com/articles/top-things-to-do-in-india" target="_blank">
+                        <img src="https://cdn.pixabay.com/photo/2016/11/13/12/52/kuala-lumpur-1820944_640.jpg" alt="">
+                        <div class="overlay-text"><strong>THINGS TO DO</strong></div>
+                    </a>
+                </div>  
+            </div>
+            <div class=" col_do col-4 m-3">
+                <div class="overlay-container">
+                    <a href="https://www.tripsavvy.com/top-tourist-places-in-india-1539731" target="_blank">
+                        <img src="https://cdn.pixabay.com/photo/2018/02/25/21/34/temple-3181803_1280.jpg" alt="">
+                        <div class="overlay-text"><strong>BEST OF INDIA</strong></div>
+                    </a>
+                </div>  
+            </div>
+        </div>
+
+        <div class="row row_do my-1">
+            <div class="col_do col-4 m-3">
+                <div class="overlay-container">
+                    <a href="https://www.booking.com/index.en.html?aid=393655&label=msn-uylW8SmsgCEW7KIR0VuqWw-8853691607:tikwd-17155438421:loc-90:neo:mtp:lp143896:dec:qsindian%20travel%20where%20to%20stay&utm_campaign=English%20EN%20ROW-CAUS&utm_medium=cpc&utm_source=bing&utm_term=uylW8SmsgCEW7KIR0VuqWw&msclkid=58cc3ad396c51527dbbd5f568322f7a3" target="_blank">
+                        <img src="https://cdn.pixabay.com/photo/2021/04/19/18/02/room-6192065_1280.jpg" alt="">
+                        <div class="overlay-text"><strong>WHERE TO STAY</strong></div>
+                    </a>
+                </div>    
+            </div>
+            <div class="col_do col-4 m-3">
+                <div class="overlay-container">
+                    <a href="https://www.holidify.com/collections/best-road-trip-india" target="_blank">
+                        <img src="https://cdn.pixabay.com/photo/2020/07/08/10/17/car-5383371_1280.jpg" alt="">
+                        <div class="overlay-text"><strong>ROAD TRIPS</strong></div>
+                    </a>
+                </div>  
+            </div>
+            <div class=" col_do col-4 m-3">
+                <div class="overlay-container">
+                    <a href="https://www.asherfergusson.com/must-have-india-packing-list-items/" target="_blank">
+                        <img src="https://cdn.pixabay.com/photo/2017/04/06/11/24/fashion-2208045_1280.jpg" alt="">
+                        <div class="overlay-text"><strong>WHAT TO BRING</strong></div>
+                    </a>
+                </div>  
+            </div>
+        </div>
+
+        <div class="row_dc ms-5 mt-5 mb-5">
+            <div class="col-6">
+                <div class="overlay-container dc">
+                    <a href="https://www.indiatravelblog.com/destinations/" target="_blank">
+                        <img src="https://cdn.pixabay.com/photo/2016/03/04/19/36/beach-1236581_1280.jpg" alt="">
+                        <div class="overlay-text"><strong>Destination</strong></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-6 ms-0">
+                <div class="overlay-container dc2">
+                    <a href="">
+                        <img src="https://cdn.pixabay.com/photo/2017/07/31/11/21/people-2557396_1280.jpg" alt="">
+                        <div class="overlay-text"><strong>Contact Us</strong></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- A FIRST TIMER’S GUIDE TO GOA -->
+    <!-- best -->
+    <section id="best">
+      <h4 style="text-align: center;"><span style="border: 2px solid black;padding: 10px;background-color: rgba(172, 178, 255, 0.34);">BEST IND GATEWAYS</span></h4>
+      <div class="row" style="display: flex;">
+
+        <div class="col-3 m-2">
+          <div class="card text-bg-dark">
+            <img src="https://i.pinimg.com/originals/12/43/17/124317955274239fc2f749e274e9af92.jpg" class="card-img" height="300px" alt="...">
+            <div class="card-img-overlay">
+              <a href="https://traveltriangle.com/blog/rafting-in-goa/" target="_blank">
+                <h5 class="card-title" style="color: rgb(255, 255, 255);"><b>GOA</b></h5>
+                <p class="card-text" style="color: rgb(255, 255, 255);"><b>White Water Rafting In Goa: Explore The Other Side Of The Party Capital Of India.</b></p>
+                <p class="card-text"><small>Last updated 3 mins ago</small></p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3 m-2">
+          <div class="card text-bg-dark">
+            <img src="https://th.bing.com/th/id/OIP.MuK60q6G9dk57rK7Zus4YQHaE8?rs=1&pid=ImgDetMain" class="card-img" height="300px" alt="...">
+            <div class="card-img-overlay">
+              <a href="https://traveltriangle.com/blog/vinit-shares-travel-hacks-kerala/" target="_blank">
+                <h5 class="card-title" style="color: rgb(255, 255, 255);"><b>KERALA</b></h5>
+                <p class="card-text" style="color: rgb(255, 255, 255);"><b>Kerala Trip: Travel Hacks That No One Else Will Ever Share With You.</b></p>
+                <p class="card-text"><small style="color: white;">Last updated 3 mins ago</small></p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+    </div>
+    <div class="row" style="display: flex;">
+
+      <div class="col-3 m-2">
+        <div class="card text-bg-dark">
+          <img src="https://th.bing.com/th/id/OIP.ijZtlzFXX5OeN8zy-HqjxwHaEy?w=1024&h=662&rs=1&pid=ImgDetMain" class="card-img" height="300px" alt="...">
+          <div class="card-img-overlay">
+            <a href="https://www.onmycanvas.com/places-to-see-hampi-itinerary/" target="_blank">
+              <h5 class="card-title" style="color: rgb(255, 255, 255);"><b>HUMPI</b></h5>
+              <p class="card-text" style="color: rgb(255, 255, 255);"><b>Timeless Places to See in Hampi, Karnataka – India’s Unforgettable Ruins.</b></p>
+              <p class="card-text"><small>Last updated 3 mins ago</small></p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3 m-2">
+        <div class="card text-bg-dark">
+          <img src="https://wallpaperaccess.com/full/5449557.jpg" class="card-img" height="300px" alt="...">
+          <div class="card-img-overlay">
+            <a href="https://www.onmycanvas.com/best-places-visit-manali-itinerary/" target="_blank">
+              <h5 class="card-title" style="color: rgb(255, 255, 255);"><b>MANALI</b></h5>
+              <p class="card-text" style="color: rgb(255, 255, 255);"><b>7 Quirky Ways to Experience India’s Most-Wanted Hill Station Manali.</b></p>
+              <p class="card-text"><small style="color: white;">Last updated 3 mins ago</small></p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3 m-2">
+        <div class="card text-bg-dark">
+          <img src="https://cdn.wallpapersafari.com/45/41/pfZTyb.jpg" class="card-img" height="300px" alt="...">
+          <div class="card-img-overlay">
+            <a href="https://www.onmycanvas.com/best-places-visit-manali-itinerary/" target="_blank">
+              <h5 class="card-title" style="color: rgb(255, 255, 255);"><b>UTTRAKHAND</b></h5>
+              <p class="card-text" style="color: rgb(255, 255, 255);"><b>A Must Have Rishikesh-Haridwar Trip to Uttrakhand.</b></p>
+              <p class="card-text"><small style="color: white;">Last updated 3 mins ago</small></p>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+    <div class="row" style="display: flex;">
+
+      <div class="col-3 m-2">
+        <div class="card text-bg-dark">
+          <img src="https://th.bing.com/th/id/OIP.SE1sIMWp4xYGeqmB_2JhvAHaFj?rs=1&pid=ImgDetMain" class="card-img" height="300px" alt="...">
+          <div class="card-img-overlay">
+            <a href="https://traveltriangle.com/blog/things-to-do-in-srinagar/" target="_blank">
+              <h5 class="card-title" style="color: rgb(255, 255, 255);"><b>KASHMIR</b></h5>
+              <p class="card-text" style="color: rgb(255, 255, 255);"><b>15 Things To Do In Srinagar That Will Make You Fall In Love With The Kashmiri Charm.</b></p>
+              <p class="card-text"><small>Last updated 3 mins ago</small></p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3 m-2">
+        <div class="card text-bg-dark">
+          <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/03/Hawa-mahal.jpg" class="card-img" height="300px" alt="...">
+          <div class="card-img-overlay">
+            <a href="https://traveltriangle.com/blog/places-to-visit-in-jaipur-in-2-days/" target="_blank">
+              <h5 class="card-title" style="color: rgb(255, 255, 255);"><b>JAIPUR</b></h5>
+              <p class="card-text" style="color: rgb(255, 255, 255);"><b>8 Places to Visit in Jaipur in 2 Days for a Cultural Detox.</b></p>
+              <p class="card-text"><small style="color: white;">Last updated 3 mins ago</small></p>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+    </section>
+
+    <!-- map -->
+    <section id="map">
+      <div class="container d-flex justify-content-center align-items-center">
+        <div class="overlay-container m-5">
+          <img id="imap" src="https://static.vecteezy.com/system/resources/previews/010/330/613/non_2x/doodle-freehand-outline-sketch-of-india-map-free-png.png" alt="">
+          <div class="overlay-im1">
+            <small><b>KERALA</b></small><br>
+            <img src="https://th.bing.com/th/id/OIP.MuK60q6G9dk57rK7Zus4YQHaE8?rs=1&pid=ImgDetMain" width="110px" style="border-radius: 30%; border: 2px solid black; padding: 5px;" alt="kerala">
+          </div>
+          <div class="overlay-im2">
+            <small><b>UTTRAKHAND</b></small><br>
+            <img src="https://wallpapercave.com/wp/wp6674248.jpg" width="110px" style="border-radius: 30%; border: 2px solid black; padding: 5px;" alt="uttar">
+          </div>
+          <div class="overlay-im3">
+            <small><b>KASHMIR</b></small><br>
+            <img src="https://dynamic.tourtravelworld.com/package-images/photo-big/dir_17/499732/207849.jpg" width="110px" style="border-radius: 30%; border: 2px solid black; padding: 5px;" alt="kashmir">
+          </div>
+          <div class="overlay-im4">
+            <small><b>GOA</b></small><br>
+            <img src="https://th.bing.com/th/id/OIP.54uR52yxvuY71NfprbgcgAHaEo?rs=1&pid=ImgDetMain" width="110px" style="border-radius: 30%; border: 2px solid black; padding: 5px;" alt="goa">
+          </div>
+          <div class="overlay-im5">
+            <small><b>RAJASTHAN</b></small><br>
+            <img src="https://wallpaperaccess.com/full/3214979.jpg" width="110px" style="border-radius: 30%; border: 2px solid black; padding: 5px;" alt="rajasthan">
+          </div>
+          <div class="overlay-im6">
+            <small><b>KOLKATA</b></small><br>
+            <img src="https://wallpapercave.com/wp/wp9292902.jpg" width="110px" style="border-radius: 30%; border: 2px solid black; padding: 5px;" alt="kolkata">
+          </div>
+          <div class="overlay-im7">
+            <small><b>ASSAM</b></small><br>
+            <img src="https://pbs.twimg.com/media/CppUDtGUAAAKvYs.jpg" width="110px" style="border-radius: 30%; border: 2px solid black; padding: 5px;" alt="assam">
+          </div>
+          <div class="overlay-im8">
+            <small><b>MAHARASHTRA</b></small><br>
+            <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/10/Maharashtra-Tourism_600.jpg" width="110px" style="border-radius: 30%; border: 2px solid black; padding: 5px;" alt="maharashtra">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- tips -->
+    <section id="tips">
+      <h4 style="text-align: center;"><span style="border: 2px solid black;padding: 10px;background-color: rgba(172, 178, 255, 0.34);">TRAVEL TIPS</span></h4>
+      <div class="row">
+        <div class="card m-3" style="width: 25rem;background-color: rgba(172, 245, 255, 0.34);">
+          <img src="https://theplanetd.com/images/Best-Travel-Apps-Today.jpg" width="300px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text" style="font-family: Taviraj;font-weight: 600;">41 Best Travel Apps In 2023 You Need To Download.<a href="https://theplanetd.com/best-travel-apps-new/" target="_blank" style="font-size: larger;">&nbsp;Read</a></p>
+          </div>
+        </div>
+
+        <div class="card m-3" style="width: 25rem;background-color: rgba(172, 245, 255, 0.34);">
+          <img src="https://cdn-bmalj.nitrocdn.com/uirOOtSrYrqqUksKHkiSCjZGZlPeXsmk/assets/images/optimized/rev-88a144f/theplanetd.com/images/Common-travel-mistakes.jpg" width="300px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text" style="font-family: Taviraj;font-weight: 600;">7 Common Travel Mistakes First Time Travelers Make.<a href="https://theplanetd.com/first-time-travelers-travel-mistakes/" target="_blank" style="font-size: larger;">&nbsp;Read</a></p>
+          </div>
+        </div>
+
+        <div class="card m-3" style="width: 25rem;background-color: rgba(172, 245, 255, 0.34);">
+          <img src="https://cdn-bmalj.nitrocdn.com/uirOOtSrYrqqUksKHkiSCjZGZlPeXsmk/assets/images/optimized/rev-88a144f/theplanetd.com/images/Best-Camping-Tips-1.jpg" width="300px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text" style="font-family: Taviraj;font-weight: 600;">25 Of The Most Useful Camping Tips And Hacks For 2023.<a href="https://theplanetd.com/camping-tips/" target="_blank" style="font-size: larger;">&nbsp;Read</a></p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- food -->
+    <section id="food">
+      <h4 style="text-align: center;"><span style="border: 2px solid black;padding: 10px;background-color: rgba(172, 178, 255, 0.34);">TASTES OF INDIA</span></h4>
+      <div class="card my-5 mx-auto" style="max-width: 90%;background-color: rgba(172, 245, 255, 0.34);">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://www.traveljaunts.in/wp-content/uploads/2019/03/hyderabadi-food-700x430.jpg" class="img-fluid rounded-start" alt="biryani">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Hyderabad – It’s not just about the Biryani</h5>
+              <p class="card-text">
+                In the gastronomic haven of Hyderabad, while the world sings praises for its legendary biryani, the city's culinary landscape unfolds a diverse symphony of flavors that extends far beyond this aromatic delight. Beyond the tantalizing biryani plates, Hyderabad beckons food enthusiasts with a myriad of culinary treasures. From the bustling street food scene near Charminar, where kebabs and Haleem reign supreme, to the delectable Nizami sweets of Laad Bazaar, the city embraces a rich tapestry of tastes. Each bite is a journey through the intricate spices and unique recipes that define Hyderabad's culinary identity. So, while biryani remains an undisputed star, the city's food scene is a delightful expedition that promises a feast for the senses and a culinary adventure beyond the world-famous biryani.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card my-5 mx-auto" style="max-width: 90%;background-color: rgba(172, 245, 255, 0.34);">
+        <div class="row g-0 flex-row-reverse">
+          <div class="col-md-4">
+            <img src="https://www.traveljaunts.in/wp-content/uploads/2019/03/Indore-chaat-690x430.jpeg" class="img-fluid rounded-start" alt="biryani">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Indore – The Street Food Capital of India</h5>
+              <p class="card-text">
+                Nestled in the heart of India, Indore proudly wears the title of the Street Food Capital with unmatched flair. Beyond its historical charm, this city is a culinary haven where every street corner unfolds a feast for the senses. Indore's street food is a celebration of flavors, from the spicy delights of poha and jalebi at Sarafa Bazaar to the savory goodness of aloo kachori at Chappan Dukaan. The aroma of garadu (fried yam) and the sizzle of johnny hot dogs create an irresistible symphony for food enthusiasts. Indore's street vendors are maestros crafting culinary masterpieces, ensuring that every bite tells a story of tradition, innovation, and a unique local palette. So, when in Indore, immerse yourself in the city's vibrant streets, savor the delectable chaats, and let the Street Food Capital of India enchant you with its gastronomic symphony.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card my-5 mx-auto" style="max-width: 90%;background-color: rgba(172, 245, 255, 0.34);">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://www.traveljaunts.in/wp-content/uploads/2019/02/Goa-sea-food-700x428.jpg" class="img-fluid rounded-start" alt="biryani">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Goa – Sun, Sand and (awesome) Sea food</h5>
+              <p class="card-text">
+                In the tropical paradise of Goa, the trifecta of sun, sand, and awesome seafood creates a culinary symphony that echoes the laid-back coastal vibe. Beyond its picturesque beaches, Goa is a haven for food enthusiasts seeking a seafood extravaganza. Shack-lined shores serve up a palate-pleasing array of dishes, from the succulent prawn curry and fish thali to the spicy vindaloo that tingles the taste buds. Freshly caught treasures from the Arabian Sea transform into culinary delights, captivating the senses with every flavorful bite. Whether it's the beachside ambiance of Palolem or the vibrant markets of Mapusa, Goa's seafood offerings are a testament to the region's coastal charm and culinary prowess. So, in Goa, let the waves serenade you while the seafood feast transports you to a gastronomic paradise.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card my-5 mx-auto" style="max-width: 90%;background-color: rgba(172, 245, 255, 0.34);">
+        <div class="row g-0 flex-row-reverse">
+          <div class="col-md-4">
+            <img src="https://www.traveljaunts.in/wp-content/uploads/2019/03/Lucknowi-cuisine-700x430.jpg" class="img-fluid rounded-start" alt="biryani">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Lucknow – Cuisine of the Nawabs of Awadh</h5>
+              <p class="card-text">
+                In the heart of Uttar Pradesh, Lucknow, the city of nawabs, unfolds a culinary tale that resonates with opulence and refinement. The cuisine of the Nawabs of Awadh is a symphony of flavors, where every dish is a carefully crafted masterpiece. From the iconic kebabs, notably the succulent galouti and aromatic seekh, to the melt-in-the-mouth goodness of Lucknawi biryani, each culinary creation reflects a rich culinary heritage. The Tunday Kababi and the bustling lanes of Aminabad encapsulate the essence of this royal cuisine. The use of fragrant spices, slow-cooking techniques, and an emphasis on artistic presentation elevate Awadhi cuisine to an unparalleled culinary experience. So, in Lucknow, let the culinary legacy of the nawabs unfold as you savor every bite, and allow the city's gastronomic prowess to transport you back to the grandeur of the Awadhi era.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- gallery -->
+    <section id="gallery">
+      <h4 style="text-align: center;"><span style="border: 2px solid black;padding: 10px;background-color: rgba(172, 178, 255, 0.34);">Captured Moments</span></h4>
+
+      <div class="row">
+        <div class="column">
+          <img src="https://wallpapercave.com/wp/wp6612913.jpg">
+          <img src="https://wallpaperaccess.com/full/3190268.jpg">
+          <img src="https://th.bing.com/th/id/OIP.caupjfSjpvQmDkxaXQyZOwHaEK?w=291&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" height="206px">
+          
+          
+    
+        </div>
+        <div class="column">
+          <img src="https://cdn.wallpapersafari.com/70/41/aOjqpx.jpeg">
+          <img src="https://th.bing.com/th/id/OIP.iR3H1eY3WEP9guddnQZKGAHaE8?rs=1&pid=ImgDetMain">
+          
+          <img src="https://www.tourtraveltourism.com/images/slider/kedarnath-tour.jpg" height="154px">
+          
+        
+        </div>
+        <div class="column">
+          <img src="https://th.bing.com/th/id/OIP.t0PNCtmb-5GsNdAzVxi0RAHaEo?rs=1&pid=ImgDetMain">
+          <img src="https://i.pinimg.com/originals/a1/1f/b4/a11fb432a03b2eea292ae39591d149ec.jpg">
+          <img src="https://www.dignitasdigital.com/wp-content/uploads/2020/01/Dignitas-Rajasthan.jpg" height="190px">
+          
+        </div>
+        <div class="column">
+          <img src="https://i.pinimg.com/originals/1d/0b/b1/1d0bb110c00f028f4e503e25181035d4.png">
+          <img src="https://i.pinimg.com/736x/63/40/b1/6340b16c37afe9f94b706b2bddf2a924--sunrises-india.jpg">
+          <img src="https://www.indiaworldwidetravel.com/wp-content/uploads/2019/02/79183332601.jpg" height="180px">
+          
+        </div>
+      </div>
+
+    </section>
+
+    <!-- video -->
+    <section id="video">
+      <h4 style="text-align: center;"><span style="border: 2px solid black;padding: 10px;background-color: rgba(172, 178, 255, 0.34);">Video</span></h4>
+      <div class="container-fluid my-5 text-center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SedpWkuZ53g?si=IoDZPBIMXWUybjlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WqT3YYlRxiw?si=gjx41I2O8SgeBXtT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_e8BFrAPedM?si=zLF0PVgi6S5ywsIj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jmlO6WPq8JI?si=Q-OuS_9GiZcxxXIm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+    </section>
+    <!-- about -->
+    <section id="abt">
+      <div class="container-fluid" style="border-top: 5px solid rgb(0, 157, 255);">
+        <div class="row">
+          <div class="col-md-2 mb-4">
+            <h5>Contact</h5>
+            <label for="">indtravelblog@yahoo.com</label>
+            <p>085 40 13 553 (Mon-Fri)</p>
+          </div>
+          <div class="col-md-2 mb-4">
+            <b>Follow Us</b>
+            <ul class="list-unstyled" style="font-size: large;">
+              <li><a href="https://www.instagram.com/" class="text-dark"><i class="fa-brands fa-instagram"></i>&nbsp;Instagram</a></li>
+              <li><a href="https://www.facebook.com/" class="text-dark"><i class="fa-brands fa-facebook-f"></i>&nbsp;Facebook</a></li>
+              <li><a href="https://in.pinterest.com/" class="text-dark"><i class="fa-brands fa-pinterest"></i>&nbsp;Pinterest</a></li>
+              <li><a href="https://www.youtube.com/results?search_query=india+travel+vlog&sp=CAA%253D" class="text-dark"><i class="fa-brands fa-youtube"></i>&nbsp;Youtube</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <div class="card bg-light my-2">
+              <div class="card-body text-center">
+                <form action="">
+                  <h4>Sign up for our newsletter!</h4>
+                  <p>Subscribe to get our weekly newsletter and new posts by email.</p>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Your Email">
+                    <div class="input-group-append">
+                      <button class="btn btn-dark" type="button">SUBSCRIBE</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 mb-4 mt-2">
+            <img src="https://thumbs.dreamstime.com/b/travel-calligraphy-blue-background-outline-shapes-text-clouds-vector-illustration-250651805.jpg" width="200px" alt="" style="border-radius: 50%;">
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-4" style="background-color: rgb(210, 210, 210);">
+        © 2023 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+    </section>
+</body>
+</html>
